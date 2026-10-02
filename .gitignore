@@ -1,0 +1,21 @@
+# ── Secrets ─────────────────────────────────────────────
+# Real credentials live here. Only credentials.example.txt is committed.
+credentials.txt
+.env
+.env.*
+
+# ── Generated demo data (regenerate with `node run.js`) ─
+demo-logs/demo_logs_*.ndjson
+*.ndjson
+
+# ── Dependencies / tooling ──────────────────────────────
+node_modules/
+npm-debug.log*
+*.log
+
+# ── Editor / OS ─────────────────────────────────────────
+.DS_Store
+.vscode/
+.idea/
+*.orig
+*.swp

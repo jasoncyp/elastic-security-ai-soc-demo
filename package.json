@@ -1,0 +1,36 @@
+{
+  "name": "elastic-security-ai-soc-demo",
+  "version": "1.0.0",
+  "description": "Generate a realistic, correlated attack story (PA PAN-OS, Windows, Linux + Elastic sample alerts) in Elastic Security, then explore it with Attack Discovery and the Elastic AI Agent.",
+  "keywords": [
+    "elastic",
+    "elastic-security",
+    "siem",
+    "attack-discovery",
+    "ai-soc",
+    "agent-builder",
+    "threat-hunting",
+    "demo-data",
+    "palo-alto",
+    "sysmon"
+  ],
+  "license": "Apache-2.0",
+  "author": "Jason Chan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR-GITHUB-USER/elastic-security-ai-soc-demo.git"
+  },
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node run.js",
+    "cleanup": "node run.js --cleanup",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^9.2.1"
+  }
+}

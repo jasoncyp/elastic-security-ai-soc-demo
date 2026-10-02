@@ -1,0 +1,32 @@
+Elastic Security AI SOC Demo — Data Generator
+Copyright 2026 Jason Chan
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+-------------------------------------------------------------------------------
+Third-party code
+-------------------------------------------------------------------------------
+
+simulator/demo-walkthrough.js
+simulator/es-client.js
+simulator/kibana-client.js
+simulator/sample-data.js
+
+  Adapted from the "security-generate-security-sample-data" skill in
+  Elastic Agent Skills — https://github.com/elastic/agent-skills
+  Copyright Elasticsearch B.V. — Licensed under the Apache License, Version 2.0.
+
+  Modifications: simulator/sample-data.js has had its identity constants
+  (host names, user names, IP addresses) changed so that its entities match the
+  demo logs in demo-logs/. A modification notice is included in that file's
+  header. The other three files are unmodified.
+
+-------------------------------------------------------------------------------
+Trademarks
+-------------------------------------------------------------------------------
+
+Elastic, Elasticsearch and Kibana are trademarks of Elasticsearch B.V.
+Palo Alto Networks and PAN-OS are trademarks of Palo Alto Networks, Inc.
+Microsoft and Windows are trademarks of Microsoft Corporation.
+Okta is a trademark of Okta, Inc. AWS is a trademark of Amazon.com, Inc.
+This project is not affiliated with, endorsed by, or supported by any of them.
